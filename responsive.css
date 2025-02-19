@@ -1,0 +1,44 @@
+@media only screen and (min-width: 600px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+    }
+    /* Product container Starts */
+    .product-container{
+        max-width: 530px;
+        display: flex;
+        border-radius: 3% 2% 2% 3%;
+    }
+    /* Product container Ends */
+
+    /* Product image Starts */
+    .product-image{
+        flex: 1;
+        object-fit: contain;
+    }
+    .product-image > picture > img{
+        border-radius: 2% 0 0 2%;
+    }
+    /* Product image Ends */
+
+    /* Product card Starts */
+    .product-card{
+        flex: 1;
+    }
+    /* Product card Ends */
+
+    /* Card price Starts */
+    .product-card_price{
+        margin-top: 0.5rem;
+    }
+    /* Card price Ends */
+
+    /* Card button Starts */
+    .product-card_botton > button{
+        margin-top: 0.5rem;
+    }
+    /* Card button Ends */
+}
