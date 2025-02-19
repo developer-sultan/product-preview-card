@@ -17,5 +17,55 @@
 .product-card_content p:first-child{
     text-transform: uppercase;
     letter-spacing: 5px;
+    margin-bottom: 0.5rem;
 }
+.product-card_content > h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    padding-bottom: 1.2rem;
+}
+.product-card_content > p{
+    line-height: 1.5rem;
+    padding-bottom: 1.2rem;
+}
+.product-card_price{
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 1.2rem;
+}
+.product-card_price strong:first-child{
+    font-size: 2rem;
+    color: var(--primary-500)
+}
+.product-card_price strong:last-child{
+    font-size: 14px;
+    align-content: center;
+    color: var(--neutral-gray);
+    font-weight: 500;
+}
+
+.product-card_botton > button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background-color: var(--primary-500);
+    color: var(--neutral-white);
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+.product-card_botton img{
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+}
+.product-card_botton > button > span{
+    font-weight: 700;
+}
+
+
+
+
+
 /* Product Card Ends */

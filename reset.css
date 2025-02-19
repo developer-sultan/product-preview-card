@@ -20,7 +20,10 @@ body{
     background: var(--neutral-cream);
     padding: 30px 16px;
 }
-
+body p{
+    color: var(--neutral-gray);
+    font-weight: 500;
+}
 img{
     width: 100%;
     height: 100%;
