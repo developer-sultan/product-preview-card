@@ -1,12 +1,14 @@
 /* product-container Starts */
 .product-container{
     background-color: var(--neutral-white);
+    border-radius: 3% 3% 0% 0%;
 }
 /* product-container Ends */
 
 /* Product Image Starts */
 .product-image > picture > img{
     border-radius: 3% 3% 0% 0%;
+    object-fit: cover;
 }
 /* Product Image Ends */
 
@@ -17,16 +19,16 @@
 .product-card_content p:first-child{
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-bottom: 0.5rem;
 }
 .product-card_content > h1 {
     font-family: "Fraunces", serif;
     font-weight: 700;
     padding-bottom: 1.2rem;
+    font-size: 2rem;
 }
 .product-card_content > p{
     line-height: 1.5rem;
-    padding-bottom: 1.2rem;
+    padding-bottom: 0.5rem;
 }
 .product-card_price{
     display: flex;
@@ -35,7 +37,8 @@
 }
 .product-card_price strong:first-child{
     font-size: 2rem;
-    color: var(--primary-500)
+    color: var(--primary-500);
+    font-family: "Fraunces", serif;
 }
 .product-card_price strong:last-child{
     font-size: 14px;
@@ -55,6 +58,10 @@
     border: none;
     border-radius: 8px;
 }
+.product-card_botton > button:hover{
+    background-color: var(--primary-700);
+    cursor: pointer;
+}
 .product-card_botton img{
     width: 15px;
     height: 15px;
@@ -62,10 +69,14 @@
 }
 .product-card_botton > button > span{
     font-weight: 700;
+    font-size: 15px;
 }
-
-
-
-
-
 /* Product Card Ends */
+
+
+/* Attribution Starts */
+.attribution{
+    text-align: center;
+    margin-top: 20px;
+}
+/* Attribution Ends */
