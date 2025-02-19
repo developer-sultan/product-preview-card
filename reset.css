@@ -17,6 +17,8 @@
 body{
     font-family: "Montserrat", serif;
     font-size: 14px;
+    background: var(--neutral-cream);
+    padding: 30px 16px;
 }
 
 img{

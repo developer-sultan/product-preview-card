@@ -1,0 +1,21 @@
+/* product-container Starts */
+.product-container{
+    background-color: var(--neutral-white);
+}
+/* product-container Ends */
+
+/* Product Image Starts */
+.product-image > picture > img{
+    border-radius: 3% 3% 0% 0%;
+}
+/* Product Image Ends */
+
+/* Product Card Starts */
+.product-card{
+    padding: 1.5rem;
+}
+.product-card_content p:first-child{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/* Product Card Ends */
